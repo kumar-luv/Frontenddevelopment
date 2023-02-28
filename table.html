@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        tr,td{
+            border-radius: 10px;
+        }
+        td{
+            text-align: left;
+        }
+        table{
+            border-spacing: 5px;
+        }
+        td{
+            padding: 5px;
+        }
+       td:nth-child(odd), tr:nth-child(even){
+            background-color: aqua;
+        }
+        tr:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%" >
+        <caption>My first table</caption>
+        <tr>
+            
+            <td rowspan="2">state of health </td>
+            <td colspan="2">fasting value</td>
+            <td>after eating</td>
+        </tr>
+        <tr>
+            <td style="background-color: aqua;">minimum</td>
+            <td style="background-color: aqua;">maximum</td>
+            <td>2 hour after eating</td>
+        </tr>
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less then 140</td>
+        </tr>
+        <tr>
+            <td>pre diab</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>diabeties</td>
+            <td>more then 126</td>
+            <td>NA</td>
+            <td>More then 200</td>
+        </tr>
+    </table>
+</body>
+</html>
