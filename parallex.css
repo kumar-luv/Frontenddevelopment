@@ -61,6 +61,7 @@ section{
     font-size: 1.5rem;
     padding: 0 10rem;
     margin: 5rem 0;
+   
 }
 .bg{
     position: relative;
@@ -79,4 +80,5 @@ section{
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    
 }

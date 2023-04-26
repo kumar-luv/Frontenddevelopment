@@ -1,0 +1,35 @@
+#radial{
+    text-align: center;
+    padding-top: 50px;
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px;
+    border-radius: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(red,orange,green);
+}
+#linear{
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px;
+    border-radius: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right,yellow,pink,black);
+}
+#conical{
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px;
+    border-radius: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red,yellow,green);
+}
